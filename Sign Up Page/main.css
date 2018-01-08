@@ -1,0 +1,57 @@
+body {
+	background:#298eea;
+	position:relative;
+}
+.logo
+{
+	position:absolute;
+	display:block;
+	width: auto;
+	height:35px;
+	left:38%;
+	top:100px;
+
+}
+.form
+{
+	position:relative;
+	width:250px;
+	height:250px;
+	background-color: white;
+	left:34%;
+	top:200px;
+	border:1px grey solid;
+	border-radius:5px;
+
+}
+input
+{
+	width:150px;
+	position:absolute;
+	left:50px;
+	right:50px;
+}
+.password
+{
+	position:absolute;
+	height:50px;
+	top:100px;
+}
+.submit
+{
+	position:absolute;
+	top:130px;
+	color:green;
+}
+.email
+{
+	position:absolute;
+	top:70px;
+
+}
+.sign-logo
+{
+	font-size:25px;
+	margin-left:75px;
+	margin-top:20px;
+}

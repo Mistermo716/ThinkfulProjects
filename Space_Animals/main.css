@@ -1,0 +1,63 @@
+nav
+{
+	background-color:gray;
+	width:100%;
+
+}
+body
+{
+	background:url(https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.3_the_position_property/outerspace_landscape.jpeg) no-repeat;
+	background-size:cover;
+}
+.catIcon
+{
+	height:40px;
+	border-radius:50%;
+	border:2px solid black;
+	margin-right:60px;
+	margin-left:30px;
+
+}
+.navLink::after
+{
+	color:black;
+	content:"|";
+	margin-left:3px;
+}
+.navLink
+{
+	position:relative;
+	bottom:15px;
+}
+.container
+{
+	height:300px;
+	width:600px;
+	border:10px dotted green;
+	margin:auto;
+	position:relative;
+	top:100px;
+}
+.spacedog
+{
+	position:absolute;
+	height:200px;
+	bottom:-75px;
+	right:-75px;
+}
+.spacecat
+{
+	position:absolute;
+	height:200px;
+	top:-75px;
+	left:-75px;
+}
+nav a:hover
+{
+	color:black;
+}
+a
+{
+	text-decoration: none;
+	color:blue;
+}
